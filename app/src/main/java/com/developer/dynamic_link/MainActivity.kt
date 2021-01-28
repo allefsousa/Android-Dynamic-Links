@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
                 finish()
             }else{
                 Log.d(MainActivity::class.java.simpleName, "Sem QueryParameter")
-
             }
 
         }, SPLASH_TIME)
